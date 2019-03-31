@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\SDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_e3186410389132aa133fb8dc35b235bb6d833291\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\0eab2909fae507f1ffd69a62eafa13f489e312ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3cceb4f5a49297db4913157821e76bc56fb6040a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\d0932cebbe651b158b87c676952972fe1f2890c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2fb547f259daa15c2693a2febdb63a81ddd9e48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\d5ad2f9e09e969301a8f82329051c0ceca55a011\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07d14ea9660c2fc5bef9a8ee6fd9454a7dc8e859\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\19728834e482a350a85d0c391ce342f0a17b6033\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7bd893ef92b76edc98ae10b51c4aa3891768efc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\050fad6e92cac6b8780be3d7017580086f4c8c64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f5c20adeb0c230dc95897f0da13feb1f94ae0e8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\30768485bf4149f7a85baa4d6438f716179b275b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78d2ce58afba780012416a63c53dd58d9495e4a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\8b2853ca9bfbfd94ff816ded432dc9810c23ace6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f031cefdd6289fd66821ac6a15a1322d69fb4e99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\f91feb3ad1e678a11d69185246cfa16bd36e391e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf1d7c07ae572a4e06dfe79c2f73f1a45502e2e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\c085906bbafc8913046d19a2f92a162cc8f7964a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_584ae90cd76ce05ff7bc9f2419bff6e572b7389c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\7c32c8e2b5a599c8477351684b1b57d527b83e17\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5e17f1b0bb6b6504ee4aee9d578cf16e825a612\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\1fa4d1fd28a786514318dd0a432744c0c73d1a4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7130335dd9e5d3c6a897d725d97029db3fb21ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\0b8f848858d54499e975b147a0b89761ef568a67\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8fa12063b077adf655691621ff06c456fb507c96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a1ca3aaae155237afdd55c414f37c7805e27c84b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba042d7ad62f0f3b35b129f1094e26f5c8ed1044">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cd5fbe59fc5c5e86daf00a91230ff748b14cfd53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d4565c41d333690beb2e69dbb954781ca12e4541\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\.android\build-cache\0a82f1d2b98282f30858f8b9ba9b846494ecf945\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Project\Project_Git\MyProject\AutoCall\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b90762c3db7b3f4c14565886df28f882efc8b6c8\classes.dex" />
+    </item>
+
+</items>

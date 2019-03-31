@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/colorWhite"
+    tools:context=".SettingActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="17sp"
+                android:id="@+id/txt_tgg"
+                android:text="Thời gian kết nối cuộc gọi (phút)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="12sp"
+                android:id="@+id/note_tgkn"
+                android:layout_below="@+id/txt_tgg"
+                android:text="(Hết thời gian này cuộc gọi sẽ tự động ngắt.)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/ll_tgkn"
+                android:layout_below="@id/note_tgkn"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="number"
+                    android:id="@+id/edt_tgkn"
+                    android:textColor="@color/colorDark"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <RadioGroup
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
+                    <RadioButton
+                        android:id="@+id/rd_time_connect_munite"
+                        android:buttonTint="@color/colorDark"
+                        android:textColor="@color/colorDark"
+                        android:text="Phút"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/rd_time_connect_second"
+                        android:buttonTint="@color/colorDark"
+                        android:textColor="@color/colorDark"
+                        android:text="Giây"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="17sp"
+                android:layout_below="@+id/ll_tgkn"
+                android:id="@+id/txt_tgc"
+                android:text="Thời gian chờ (phút)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="12sp"
+                android:id="@+id/note_tgc"
+                android:layout_below="@id/txt_tgc"
+                android:text="(Hết thời gian này cuộc gọi sẽ được chuyển tiếp.)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:id="@+id/ll_tgc"
+                android:layout_below="@id/note_tgc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:text="0"
+                    android:inputType="time"
+                    android:textColor="@color/colorDark"
+                    android:id="@+id/edt_tgc"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+                <RadioGroup
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
+                    <RadioButton
+                        android:id="@+id/rd_time_wait_munite"
+                        android:buttonTint="@color/colorDark"
+                        android:textColor="@color/colorDark"
+                        android:text="Phút"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/rd_time_wait_second"
+                        android:buttonTint="@color/colorDark"
+                        android:textColor="@color/colorDark"
+                        android:text="Giây"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="17sp"
+                android:layout_below="@id/ll_tgc"
+                android:id="@+id/txt_khunggio"
+                android:text="Khung giờ gọi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="12sp"
+                android:layout_below="@id/txt_khunggio"
+                android:id="@+id/note_kg"
+                android:text="(Khung giờ để thực hiện cuộc gọi.)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/ll_khunggio"
+                android:layout_below="@id/note_kg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:text="0"
+                    android:id="@+id/edt_tgbd"
+                    android:textColor="@color/colorDark"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:padding="4dp"
+                    android:text="đến"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:background="@drawable/edittext_custome"
+                    android:gravity="center"
+                    android:text="0"
+                    android:id="@+id/edt_tgkt"
+                    android:textColor="@color/colorDark"
+                    android:layout_width="55dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:padding="4dp"
+                    android:text="giờ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <CheckBox
+                android:textSize="17sp"
+                android:id="@+id/radio_sms"
+                android:layout_below="@id/ll_khunggio"
+                android:buttonTint="@color/colorDark"
+                android:textColor="@color/colorDark"
+                android:text="SMS thông báo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/colorDark"
+                android:textSize="12sp"
+                android:layout_below="@id/radio_sms"
+                android:id="@+id/note_sms"
+                android:text="(Cấu hình thời gian gửi sms báo cáo.)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:visibility="visible"
+                android:id="@+id/rl_sms"
+                android:layout_below="@id/note_sms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:layout_marginTop="2dp"
+                    android:textSize="17sp"
+                    android:id="@+id/txt_SmsThongbao"
+                    android:text="Thời gian sms thông báo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:id="@+id/ll_sms"
+                    android:layout_below="@id/txt_SmsThongbao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/colorDark"
+                        android:text="Vào "
+                        android:id="@+id/tile_vao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:background="@drawable/edittext_custome"
+                        android:gravity="center"
+                        android:text="0"
+                        android:inputType="number"
+                        android:id="@+id/edt_gio"
+                        android:textColor="@color/colorDark"
+                        android:layout_width="35dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:textColor="@color/colorDark"
+                        android:padding="4dp"
+                        android:text="giờ, mỗi thứ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:background="@drawable/edittext_custome"
+                        android:gravity="center"
+                        android:text="0"
+                        android:inputType="number"
+                        android:id="@+id/edt_ngay"
+                        android:textColor="@color/colorDark"
+                        android:layout_width="35dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:textColor="@color/colorDark"
+                        android:padding="4dp"
+                        android:text="hàng tuần"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/ll_sms"
+                    android:text="(Giờ từ 0 -> 23, Thứ từ 2 -> 8 (chủ nhật))"
+                    android:id="@+id/note_sms_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/note_sms_setting"
+                    android:text="Số điện thoại"
+                    android:id="@+id/title_sms_sendto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorDark"
+                    android:background="@drawable/edittext_custome"
+                    android:inputType="phone"
+                    android:id="@+id/edt_sms_sendto"
+                    android:layout_below="@+id/title_sms_sendto"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="@color/colorDark"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/edt_sms_sendto"
+                    android:id="@+id/title_sms"
+                    android:text="Tin Nhắn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="7dp"
+                    android:textColor="@color/colorDark"
+                    android:background="@drawable/edittext_custome"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/edt_sms_content"
+                    android:layout_below="@+id/title_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+            </RelativeLayout>
+
+            <Button
+                android:background="@drawable/button_custome"
+                android:id="@+id/btn_thaydoi"
+                android:layout_marginTop="20dp"
+                android:text="Thay đổi"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/rl_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
