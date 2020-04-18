@@ -23,11 +23,8 @@ public class MyAsyncTaskCall extends AsyncTask<Void, Integer, Void> {
         @Override
         protected Void doInBackground(Void... params) {
             try {
-                if (Gv.date == null) {
-                    Gv.date = new Date();
-                }
                 Calendar calendar = GregorianCalendar.getInstance();
-                calendar.setTime(Gv.date);
+                calendar.setTime(new Date());
                 SharedPreferences sharedPreferences = context.getSharedPreferences("YongQuan", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 String str = sharedPreferences.getString("contact_t", "");
